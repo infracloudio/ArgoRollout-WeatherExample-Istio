@@ -14,7 +14,7 @@ spec:
         app: rollout-istio
     spec:
       containers:
-      - name: rollouts-demo
+      - name: weather-app
         image: docker.io/atulinfracloud/weathersample:v1
         imagePullPolicy: Always
         ports:
